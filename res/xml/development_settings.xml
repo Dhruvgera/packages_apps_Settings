@@ -598,5 +598,20 @@
             android:key="autofill_reset_developer_options"
             android:title="@string/autofill_reset_developer_options" />
 
+
     </com.android.settings.development.autofill.AutofillPreferenceCategory>
+
+ <PreferenceScreen 
+	android:key="pe-mod_updater"
+	android:title="@string/pe-mod_updater_title"
+	android:icon="@drawable/ic_system_update"
+	android:order="-230"
+	android:summary="@string/pe-mod_updater_summary">       
+
+	<intent
+        android:action="android.intent.action.MAIN"
+        android:targetPackage="com.pe-modos.ota"
+        android:targetClass="com.pe-modos.ota.UpdatesActivity" />     
+    </PreferenceScreen>
+
 </PreferenceScreen>

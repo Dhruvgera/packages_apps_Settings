@@ -91,5 +91,9 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+ 
+      <!-- Updater -->
+    <string name="pe-mod_updater_title">System Updater</string>
+    <string name="pe-mod_updater_summary">PE MOD System Updater</string>
 
 </resources>
